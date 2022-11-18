@@ -8,18 +8,18 @@ console.log(char.charAt(3));
 var con1 = "car auto";
 var con2 = "mugeshkumar";
 
-console.log(con2.concat(con1));
+console.log(con2.concat(" ",con1));
 
 //index of
 
-var index = "lets find the world"
+var index = " world lets find the world world lets find the world"
 
 console.log(index.indexOf("world"));
 
 //last index of
 
 var last = "a dev knowns a dev"
-console.log(last.lastIndexOf("knowns"));
+console.log(index.lastIndexOf("world"));
 
 //replace
 
@@ -29,16 +29,16 @@ console.log(replace.replace("good", "day"));
 //search
 
 var sear = "have a good "
-console.log(sear.search("a"));
+console.log(sear.search("s"));
 
 //slice
 
 var sli = "use to slice method"
-console.log(sli.slice(2,9));
+console.log(sli.slice(-8,-4));
 
 //substr
 var sub = "html css js"
-console.log(sub.substring(0,7));
+console.log(sub.substring(-5));
 
 //to upper case
 
@@ -75,16 +75,16 @@ console.log(inc.includes("hello"));
 //charcode at
 
 var charcode = "TEST"
-console.log(charcode.charCodeAt(0));
+console.log(charcode.charCodeAt(2));
 
 //MATCH 
 var mat = "goodday goodday goodday goodday"
-console.log(mat.match(/day/g));
+console.log(mat.match(/Day/gi));
 
 //split
 
-var spli = "1,3,6,5,7,8,3,2,4,6,8"
-console.log(spli.split(","));
+var spli = "my name is mugesh"
+console.log(spli.split(""));
 
 //length
 
@@ -94,5 +94,10 @@ console.log(leng.length);
 //locale compare
 
 let text1 = "ab";
-let text2 = "cd";
+let text2 = "Ab";
   console.log( text1.localeCompare(text2)); 
+
+//replace all
+
+var 
+
