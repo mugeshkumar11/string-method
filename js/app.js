@@ -90,14 +90,3 @@ console.log(spli.split(""));
 
 var leng = "asdfghjqwertyuioasdfghj"
 console.log(leng.length);
-
-//locale compare
-
-let text1 = "ab";
-let text2 = "Ab";
-  console.log( text1.localeCompare(text2)); 
-
-//replace all
-
-var 
-
